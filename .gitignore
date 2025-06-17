@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 .terraform/
 *.tfstate
 *.tfstate.backup
 .terraform.lock.hcl
+=======
+Terraform/.terraform/
+Terraform/*.tfstate
+Terraform/*.tfstate.backup
+Terraform/.terraform.lock.hcl
+>>>>>>> 69f3cea (Initial commit)
