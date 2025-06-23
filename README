@@ -1,0 +1,30 @@
+# Static Website Deployment with Terraform and AWS S3
+
+This project demonstrates how to deploy a static website to AWS S3 using Terraform. The infrastructure includes an S3 bucket configured for website hosting, bucket policies for public access, and uploads of your static website files.
+
+---
+
+## Infrastructure Overview
+
+- Creates an S3 bucket with static website hosting enabled.
+- Configures the bucket to allow public read access for website content.
+- Uploads `index.html` and `error.html` files to the S3 bucket.
+- Sets bucket policy to enable public access to the website files.
+
+---
+
+## Prerequisites
+
+- AWS CLI installed and configured with credentials that have permission to manage S3 and IAM resources.
+- Terraform installed (v1.x or higher recommended).
+- Your static website files (`index.html` and `error.html`) ready.
+
+---
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YourUsername/your-repo.git
+cd your-repo/terraform
